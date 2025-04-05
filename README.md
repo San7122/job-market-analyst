@@ -1,30 +1,88 @@
-# job-market-analyst
-AI Job Market Insights Dashboard
 
-Overview
 
-This repository contains a series of dashboards that analyze the AI job market. The dashboards provide insights into various aspects of AI-related job roles, including job titles, industries, salaries, AI adoption levels, automation risks, and more.
 
-The project is divided into four key dashboards:
+## 🔍 Overview
 
-Job Market Overview: Distribution of job titles, industries, and locations in the AI job market.
-AI Adoption & Automation Risks: Analysis of AI adoption levels and automation risks across industries and job titles.
-Salary Insights: Examination of average salaries across job titles, industries, and locations.
-Job Growth & Remote Friendliness: Trends in job growth projections and the availability of remote-friendly roles.
-Visualizations
+This project presents a comprehensive analysis of the **AI job market**, highlighting key trends in job roles, industry demand, automation risk, salary insights, and remote-friendliness. Built with Python and `matplotlib`, the dashboard provides a visual understanding of where the AI industry is headed and how professionals can prepare.
 
-The dashboards are visualized using matplotlib, and they include bar charts, stacked bar charts, and heatmaps. These visualizations aim to make the data easy to understand and actionable for individuals interested in AI careers.
+---
 
-Data
+## 📁 Dashboard Modules
 
-The dataset used for the analysis includes information such as:
+### 1️⃣ Job Market Overview  
+- Distribution of job titles, industries, and locations.  
+- Understand where AI talent is in demand.  
 
-Job Titles: Various AI-related roles.
-Industries: Sectors where AI is being adopted.
-Company Size: Company scale, ranging from small to large enterprises.
-Locations: Geographic distribution of jobs.
-AI Adoption Level: Level of AI integration within different companies.
-Automation Risk: The potential risk of job automation.
-Salary: Salaries in USD for different AI-related roles.
-Remote Friendliness: Indication of whether a job can be performed remotely.
-Job Growth Projection: Growth or decline projections for different roles.
+### 2️⃣ AI Adoption & Automation Risks  
+- Industry-wise AI integration levels.  
+- Risk of automation by role & sector.  
+
+### 3️⃣ Salary Insights  
+- Salary distribution by job title, industry, and location.  
+- See which roles command the highest pay.  
+
+### 4️⃣ Job Growth & Remote Friendliness  
+- AI role growth projections.  
+- Analysis of remote job availability across sectors.
+
+---
+
+## 📊 Visualizations
+
+All dashboards are built using:
+- `matplotlib` for static and comparative charts  
+- Bar charts, heatmaps, and stacked bar plots  
+- Clear legends and annotations for insights
+
+---
+
+## 🧠 Data Attributes
+
+The dataset includes rich insights such as:
+
+| Feature              | Description                                              |
+|----------------------|----------------------------------------------------------|
+| `Job Title`          | Various AI-related positions (e.g., Data Scientist, ML Engineer) |
+| `Industry`           | Tech, Healthcare, Finance, Retail, etc.                  |
+| `Company Size`       | Startup to Enterprise                                    |
+| `Location`           | Country or city-specific job data                        |
+| `AI Adoption Level`  | Low, Medium, High                                        |
+| `Automation Risk`    | Role-level automation susceptibility                     |
+| `Salary`             | Annual salary in USD                                     |
+| `Remote Friendliness`| Fully remote, Hybrid, or On-site                         |
+| `Growth Projection`  | Positive, Neutral, or Negative trends                    |
+
+---
+
+## 🛠 Tools Used
+
+| Tool        | Purpose                             |
+|-------------|--------------------------------------|
+| Python      | Data wrangling, charting             |
+| Pandas      | Data manipulation                    |
+| Matplotlib  | Data visualization                   |
+| Jupyter     | Development environment              |
+
+---
+
+
+
+## 💡 Insights
+
+- **AI-related roles** are growing fastest in tech, finance, and healthcare.  
+- **Remote opportunities** are highest in data science and NLP roles.  
+- Roles with **higher AI adoption** tend to offer **higher salaries**.  
+- **Automation risk** remains low in research and engineering-heavy positions.
+
+---
+
+## 📬 Contact
+
+📧 Email: sanjanathakur302@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/sanjana-thakur-b35459246)  
+🔗 [Portfolio](https://san7122.github.io/sanjanaportfolio.oi)
+
+---
+
+⭐ If you find this useful, feel free to **star** this repo and connect!
+
